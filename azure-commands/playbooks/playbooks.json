@@ -40,7 +40,7 @@
                   "command": "",
                   "optional_parameters": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "azure-commands",
                 "operation": "generic_command",
                 "operationTitle": "Execute Azure Command"
@@ -111,7 +111,7 @@
                   "resource_group": "",
                   "optional_parameters": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "azure-commands",
                 "operation": "list_vm",
                 "operationTitle": "Get Virtual Machines List"
@@ -182,7 +182,7 @@
                   "input": "",
                   "optional_parameters": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "azure-commands",
                 "operation": "get_vm",
                 "operationTitle": "Get Virtual Machine"
@@ -253,7 +253,7 @@
                   "input": "",
                   "optional_parameters": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "azure-commands",
                 "operation": "delete_vm",
                 "operationTitle": "Delete Virtual Machine"
@@ -324,7 +324,7 @@
                   "location": "",
                   "optional_parameters": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "azure-commands",
                 "operation": "list_resource",
                 "operationTitle": "Get Resources List"
@@ -395,7 +395,7 @@
                   "input": "",
                   "optional_parameters": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "azure-commands",
                 "operation": "get_resource",
                 "operationTitle": "Get Resource"
@@ -466,7 +466,7 @@
                   "input": "",
                   "optional_parameters": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "azure-commands",
                 "operation": "delete_resource",
                 "operationTitle": "Delete Resource"
@@ -537,7 +537,7 @@
                   "resource_group": "",
                   "optional_parameters": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "azure-commands",
                 "operation": "list_webapp",
                 "operationTitle": "Get Webapp List"
@@ -608,7 +608,7 @@
                   "resource_group": "",
                   "optional_parameters": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "azure-commands",
                 "operation": "list_ssh_keys",
                 "operationTitle": "Get SSH Keys List"
@@ -679,7 +679,7 @@
                   "file_system": "",
                   "optional_parameters": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "azure-commands",
                 "operation": "list_storage_fs_directory",
                 "operationTitle": "Get Storage FS Directory List"
@@ -716,7 +716,7 @@
           ]
         }
       ],
-      "name": "Sample - Azure Commands - 1.0.0",
+      "name": "Sample - Azure Commands - 1.0.1",
       "description": "Azure Commands are used to run Azure native commands for Azure resources configurations directly from FortiSOAR.",
       "visible": true,
       "recordTags": [

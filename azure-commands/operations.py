@@ -1,7 +1,7 @@
 """
 Copyright start
 MIT License
-Copyright (c) 2024 Fortinet Inc
+Copyright (c) 2025 Fortinet Inc
 Copyright end
 """
 
@@ -178,7 +178,7 @@ def list_storage_fs_directory(config: dict, params: dict):
 
 def _login_az_cli(config: dict):
     try:
-        query = f"login --service-principal -u {config.get('client_id')} -p {config.get('client_secret')} --tenant {config.get('tenant_id')}"
+        query = f"login --service-principal --allow-no-subscriptions -u {config.get('client_id')} -p {config.get('client_secret')} --tenant {config.get('tenant_id')}"
         exit_code, result_dict, logs = az(query)
         if exit_code == 0:
             return result_dict, True
