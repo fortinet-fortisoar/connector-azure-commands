@@ -9,7 +9,7 @@
   "category": "Asset Management",
   "icon_small_name": "small.png",
   "icon_large_name": "large.png",
-  "help_online": "",
+  "help_online": "https://docs.fortinet.com/document/fortisoar/1.0.1/azure-commands/1753261423/azure-commands-v1-0-1",
   "configuration": {
     "fields": [
       {
